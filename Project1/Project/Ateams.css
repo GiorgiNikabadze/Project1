@@ -1,0 +1,191 @@
+
+.BDIV{
+    height: 100px;
+    width: 101%;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    margin-left: -10px;
+    margin-top: -10px;
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    width: 100px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.Home{
+    width: 110px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.News{
+    width: 110px;
+    height: 50px;
+    margin-left: 210px;
+    margin-top: -34px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.Games{
+    width: 110px;
+    height: 50px;
+    margin-left: 460px;
+    margin-top: -65px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.Teams{
+    width: 110px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: -50px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: underline red;
+}
+#search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 750px;
+    margin-top: -40px;  
+}
+
+#search-input {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+#search-button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.signin{
+    width: 110px;
+    height: 50px;
+    margin-left: 1180px;
+    margin-top: -45px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.signup{
+    width: 110px;
+    height: 50px;
+    margin-left: 1350px;
+    margin-top: -50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conference {
+    flex-basis: 45%; /* Adjust as needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: red;
+    color: black;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 101%;
+    margin-top: 90px;
+    margin-left: -20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 90px;
+    height: 80px;
+    background-size: cover;
+    margin-left: 80px;
+
+}
+
+.facebook {
+    background-image: url('fb.jpg'); 
+}
+
+.instagram {
+    background-image: url('inst.jpg'); 
+}
+
+.gmail {
+    background-image: url('gmail.jpg'); 
+}
+a{
+    text-decoration: none;
+    color: white
+}
+@media only screen and (max-width: 768px) {
+   
+    .Home,
+    .News,
+    .Games,
+    .Teams {
+      width: 100%; 
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    #search-container {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .signin,
+    .signup {
+      width: 100%; 
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }

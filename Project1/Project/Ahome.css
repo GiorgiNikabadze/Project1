@@ -1,0 +1,359 @@
+.BDIV{
+    height: 100px;
+    width: 101%;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+    margin-left: -10px;
+    margin-top: -10px;
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Logo{
+    width: 100px;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.Home{
+    width: 110px;
+    height: 50px;
+    margin-left: 180px;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: underline red;
+}
+
+.News{
+    width: 110px;
+    height: 50px;
+    margin-left: 215px;
+    margin-top: -35px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.Games{
+    width: 110px;
+    height: 50px;
+    margin-left: 460px;
+    margin-top: -65px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.Teams{
+    width: 110px;
+    height: 50px;
+    margin-top: -35px;  
+    margin-left: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+#search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 750px;
+    margin-top: -60px;  
+}
+
+#search-input {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+#search-button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.signin{
+    width: 110px;
+    height: 50px;
+    margin-left: 1180px;
+    margin-top: -45px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.signup{
+    width: 110px;
+    height: 50px;
+    margin-left: 1350px;
+    margin-top: -50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.slider-container {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: 90%;
+}
+.opacity1{
+    background-color: rgba(0, 0, 0, 0.8); /* 50% opacity for the div */
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 390px;
+}
+.h1{
+    opacity: 1; 
+    color: white;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h3{
+    opacity: 1; 
+    color: white;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.opacity2{
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 390px;
+}
+.opacity3{
+    background-color: rgba(0, 0, 0, 0.8); 
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 390px;
+}
+.smallsq{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin-left: 1025px;
+    margin-top: -640px;
+    display: flexbox;
+}
+.smallsq1{
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    background-color: blue;
+    margin-left: 1025px;
+    margin-top: 25px;
+}
+.smallsq2{
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    background-color: blue;
+    margin-left: 1025px;
+    margin-top: 25px;
+}
+.smallsq3{
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    background-color: blue;
+    margin-left: 1025px;
+    margin-top: 25px;
+}
+
+
+.textsq{
+    width: 300px;
+    height: 150px;
+    margin-left: 1200px;
+    margin-top: -680px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textsq1{
+    width: 300px;
+    height: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1200px;
+    margin-top: 25px;
+}
+.textsq2{
+    width: 300px;
+    height: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1200px;
+    margin-top: 25px;
+}
+.textsq3{
+    width: 300px;
+    height: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1200px;
+    margin-top: 25px;
+}
+
+.imgdoncic{
+    width: 150px;
+    height: 150px;
+}
+.h5{
+    margin-top: -20px;
+}
+.h2{
+    margin-top: -20px;
+}
+
+.widsq{
+    width: 260px;
+    height: 150px;
+    background-color: blue;
+    margin-top: -60px;
+    margin-left: 100px;
+}
+
+.widsq1{
+    width: 260px;
+    height: 150px;
+    background-color: blue;
+    margin-left: 420px;
+    margin-top: -150px;
+}
+
+.widsq2{
+    width: 260px;
+    height: 150px;
+    background-color: blue;
+    margin-left: 720px;
+    margin-top: -150px;
+}
+.teitum{
+    width: 260px;
+    height: 150px;
+}
+.widtxt{
+    width: 260px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.widtxt1{
+    width: 260px;
+    height: 100px;
+    margin-left: 420px;
+    margin-top: -100px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.widtxt2{
+    width: 260px;
+    height: 100px;
+    margin-left: 740px;
+    margin-top: -100px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    width: 101%
+}
+
+footer p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 90px;
+    height: 80px;
+    background-size: cover;
+    margin-left: 80px;
+
+}
+
+.facebook {
+    background-image: url('fb.jpg'); /* Replace with your Facebook icon image */
+}
+
+.instagram {
+    background-image: url('inst.jpg'); /* Replace with your Instagram icon image */
+}
+
+.gmail {
+    background-image: url('gmail.jpg'); /* Replace with your Gmail icon image */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (min-width: 600px) {
+    .BDIV {
+        height: 120px; 
+    }
+
+    .Logo {
+        width: 120px;
+        height: 70px; 
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    .BDIV {
+        height: 150px; 
+    }
+
+    .Logo {
+        width: 150px;
+        height: 80px; 
+    }
+
+
+}
